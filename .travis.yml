@@ -9,6 +9,9 @@ install: go get -v github.com/spf13/hugo
 
 script:
   - hugo
+  - pwd
+  - ls
+  - ls public
 
 deploy:
   provider: pages
