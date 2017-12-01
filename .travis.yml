@@ -13,6 +13,8 @@ install:
 script:
   - sudo pip install Pygments
   - ./hugo
+  - ls
+  - ls theme
   - ls public
 
 deploy:
