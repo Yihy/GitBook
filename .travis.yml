@@ -14,7 +14,7 @@ script:
   - sudo pip install Pygments
   - ./hugo
   - ls
-  - ls themes
+  - ls themes/hugo-minimalist-theme
   - ls public
 
 deploy:
