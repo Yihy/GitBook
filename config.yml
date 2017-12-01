@@ -7,8 +7,7 @@ languageCode: zh-cn
 # Define how many pages appear per site
 paginate: 10
 # Enable comments powered by Disqus by entering your disqus shortname
-#disqusShortname : spf13
-UYanUid: 2150968
+disqusShortname : 2150968
 # Enable gogle analytics by entering your tracking code
 googleAnalytics :
 theme : hugo-minimalist-theme
