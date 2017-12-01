@@ -12,7 +12,8 @@ install:
 
 script:
   - sudo pip install Pygments
-  - cd themes
+  - pwd
+  - cd ./themes
   - git clone https://github.com/digitalcraftsman/hugo-minimalist-theme.git
   - cd ../
   - ./hugo
