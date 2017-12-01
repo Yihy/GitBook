@@ -1,4 +1,4 @@
-sudo: false
+sudo: required
 
 language: go
 
@@ -11,7 +11,9 @@ install:
   - chmod a+x hugo
 
 script:
+  - sudo pip install Pygments
   - ./hugo
+  - ls public
 
 deploy:
   provider: pages

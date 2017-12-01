@@ -1,7 +1,8 @@
 ---
 baseurl:  http://yihy.github.io/
 title: 念去去云
-languageCode: zh-cn
+#languageCode: zh-cn
+languageCode: en-us
 
 # Define how many pages appear per site
 paginate: 10
