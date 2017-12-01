@@ -4,6 +4,9 @@ language: go
 
 git:
   depth: 1
+  submodules: true
+before_install:
+  - git submodule update --init --recursive
 
 install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.31.1/hugo_0.31.1_Linux-64bit.tar.gz
@@ -13,10 +16,10 @@ install:
 
 script:
 
-  - mkdir themes
-  - cd ./themes
-  - git clone https://github.com/Yihy/hugo-minimalist-theme.git
-  - cd ../
+#  - mkdir themes
+#  - cd ./themes
+#  - wget https://github.com/Yihy/hugo-minimalist-theme.git
+#  - cd ../
   - ./hugo
 
 deploy:
