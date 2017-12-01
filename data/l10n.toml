@@ -1,29 +1,29 @@
 [author]
-    by = "by"
+    by = ""
 
 [article]
-    read_more = "Read more"
-    back_to_home = "Back to home"
-    posted_on = "Posted on"
-    tagged_in = "Tagged in"
+    read_more = "阅读更多"
+    back_to_home = "返回主页"
+    posted_on = "发布时间"
+    tagged_in = "标签"
 
 [comments]
-    comments = "Comments"
+    comments = "评论"
 
 [share]
-    title = "Share this article:"
-    facebook = "Share on Facebook"
-    twitter = "Tweet this article"
-    gplus = "Share on Google+"
-    linkedin = "Share on Linkedin"
+    title = "分享这篇文章:"
+    facebook = "分享到Facebook"
+    twitter = "分享到twitter"
+    gplus = "分享到Google+"
+    linkedin = "分享到Linkedin"
 
 [pagination]
-    newer = "Newer"
-    older = "Older"
+    newer = "上一页"
+    older = "下一页"
     # Page x of y
     page = "Page"
-    of = "of"
+    of = "/"
 
 [page_not_found]
-    title = "404 - page not found"
-    subtitle = "The content you're looking for doesn't seem to exist."
+    title = "404 - 未找到页面"
+    subtitle = "该页面不存在!"
