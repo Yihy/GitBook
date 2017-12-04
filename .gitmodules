@@ -1,3 +1,6 @@
 [submodule "themes/hugo-minimalist-theme"]
 	path = themes/hugo-minimalist-theme
 	url = https://github.com/Yihy/hugo-minimalist-theme.git
+[submodule "themes/hugo-nuo"]
+	path = themes/hugo-nuo
+	url = https://github.com/laozhu/hugo-nuo

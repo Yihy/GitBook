@@ -4,6 +4,7 @@ tags :
   - idea
   - 翻译
 title : Idea  本地化指南
+sulg: idea_local
 ---
 
 

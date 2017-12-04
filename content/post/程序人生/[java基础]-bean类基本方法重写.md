@@ -1,8 +1,11 @@
 ---
 date : 2017-11-26T13:47:08+02:00
-tags : []
+tags : ["java","基础"]
 title : 类基本方法（toString、hashCode、equals、compareTo）重写
-
+menu : 
+  main: 
+    parent: '日常问题'
+    weight: 10
 ---
 # 类基本方法（toString、hashCode、equals、compareTo）重写
 
