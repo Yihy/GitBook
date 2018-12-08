@@ -1,3 +1,6 @@
+---
+title : "[Shiro]-filter&realm绑定--多登陆入口，区分前后台"
+---
 # Shiro框架 filter&realm绑定
 ## 这种实现方式有问题，会影响到后续的角色验证。不建议看了
 ## 新的实现方式 ： [自定义Token](http://www.jianshu.com/p/986a3c41dac1)

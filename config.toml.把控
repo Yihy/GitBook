@@ -1,5 +1,6 @@
 baseURL = "http://localhost:1313"
 languageCode = "en"
+DefaultContentLanguage = "zh"
 title = "念去去云 Blog"
 theme = "hugo-nuo"
 enableRobotsTXT = true

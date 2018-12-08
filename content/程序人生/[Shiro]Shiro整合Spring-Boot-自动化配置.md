@@ -1,3 +1,7 @@
+---
+title: "[Shiro]Shiro整合Spring-Boot-自动化配置"
+---
+
 >  Spring Boot 简化了spring大量的xml配置，使用了Java Config的配置，同时又提供了自动化配置工具。在引入新的组件时，只需要在配置文件上添加少量配置即可。如果需要更高自定义度配置，再添加极少的Java Config文件就好了。
 
 ## 简单介绍

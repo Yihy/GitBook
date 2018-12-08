@@ -1,3 +1,6 @@
+---
+title: 配置mybatis反向生成
+---
 1 配置pom.xml 
 
 新建Maven项目，在pom.xml文件中配置

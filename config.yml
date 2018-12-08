@@ -1,8 +1,9 @@
 ---
-baseurl:  http://icoding.pro/
-title: 念去去云
+baseurl:  http://www.1move.life/
+title: 念去去云的博文
 languageCode: zh-cn
 #languageCode: en-us
+defaultContentLanguage : "cn"
 
 # Define how many pages appear per site
 paginate: 10
@@ -10,8 +11,21 @@ paginate: 10
 disqusShortname : 2150968
 # Enable gogle analytics by entering your tracking code
 googleAnalytics :
-theme : hugo-nuo
+theme : hugo-theme-techdoc
 disableRSS : false
+
+
+
+
+
+hasCJKLanguage : true
+metaDataFormat : "yaml"
+
+pygmentsUseClasses : true
+pygmentsCodefences : true
+
+defaultContentLanguageInSubdir: false
+enableMissingTranslationPlaceholders: false
 params:
   site_author : Yihy
   site_description : 博客
@@ -20,6 +34,8 @@ params:
   avatar : https://avatars0.githubusercontent.com/u/18240360?s=40&v=4
   header_background: img/desk.jpg
   header_title : 念去去云
+  menu_exclusion : ["archives", "blog", "entry", "post", "posts"]
+
   copyright: Powered by [Hugo](http://gohugo.io).
   seotitle : "念去去云 Blog"
   subtitle: "~ Keep It Simple & Stupid ~"
@@ -102,22 +118,25 @@ menu:
       Weight: 1
       Identifier: "home"
       URL: "/"
-    - Name: 日常问题
-      Pre: "<i class='fa fa-heart'></i>"
-      Weight: 10
-      Identifier: "rcwt"
-      URL: "/rcwt/"
-
-    - Name: 程序人生
-      Pre: "<i class='fa fa-heart'></i>"
-      Weight: 10
-      Identifier: "itgo"
-      URL: "/程序人生/"
-
-    - Name: 标签
-      Pre: "<i class='fa fa-tag'></i>"
-      Weight: 30
-      Identifier: "tags"
-      URL: "/tags/"
+    - Name: 外链
+      Weight: 2
+      URL: "/"
+#    - Name: 日常问题
+#      Pre: "<i class='fa fa-heart'></i>"
+#      Weight: 10
+#      Identifier: "rcwt"
+#      URL: "/日常问题/"
+#
+#    - Name: 程序人生
+#      Pre: "<i class='fa fa-heart'></i>"
+#      Weight: 10
+#      Identifier: "itgo"
+#      URL: "/程序人生/"
+#
+#    - Name: 标签
+#      Pre: "<i class='fa fa-tag'></i>"
+#      Weight: 30
+#      Identifier: "tags"
+#      URL: "/tags/"
 
 ---
