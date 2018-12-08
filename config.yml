@@ -27,21 +27,14 @@ pygmentsCodefences : true
 defaultContentLanguageInSubdir: false
 enableMissingTranslationPlaceholders: false
 params:
-  site_author : Yihy
-  site_description : 博客
-  location : BeiJing
-  # Link custom assets relative to /static
-  avatar : https://avatars0.githubusercontent.com/u/18240360?s=40&v=4
-  header_background: img/desk.jpg
+  description : 博客小站
   header_title : 念去去云
   menu_exclusion : ["archives", "blog", "entry", "post", "posts"]
+  dateformat : "2006-01-02"
 
   copyright: Powered by [Hugo](http://gohugo.io).
   seotitle : "念去去云 Blog"
   subtitle: "~ Keep It Simple & Stupid ~"
-
-  custom_css : []
-  custom_js  : []
   email : "yihy8023@gmail.com"
   github : Yihy
 
